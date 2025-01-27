@@ -4,6 +4,8 @@ import Auth from './components/Auth'
 import LibrarianDashboard from './pages/LibrarianDashboard'
 import './App.css'
 
+export default App;
+
 function App() {
   const [session, setSession] = useState(null)
   const [isLibrarian, setIsLibrarian] = useState(false)
